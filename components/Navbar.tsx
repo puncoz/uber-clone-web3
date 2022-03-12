@@ -15,8 +15,8 @@ const style = {
     loginText: `ml-2`,
 }
 
-// const currentAccount = "0x0001234567890123456789012345678901234567"
-const currentAccount = ""
+const currentAccount = "0x0001234567890123456789012345678901234567"
+// const currentAccount = ""
 
 type Props = {};
 
