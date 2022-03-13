@@ -1,3 +1,4 @@
+import { Confirm }          from "@/components/Confirm"
 import { LocationSelector } from "@/components/LocationSelector"
 import { Map }              from "@/components/Map"
 import { Navbar }           from "@/components/Navbar"
@@ -23,7 +24,8 @@ const Home: NextPage = () => {
             <div className={style.rideRequestContainer}>
                 <div className={style.rideRequest}>
                     <LocationSelector/>
-                    confirm ride
+
+                    <Confirm/>
                 </div>
             </div>
         </div>
